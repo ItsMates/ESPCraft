@@ -1,386 +1,422 @@
-[17:49:31] [main/INFO]: Loaded 0 recipes
-[17:49:32] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[17:49:32] [Server thread/INFO]: Loading properties
-[17:49:32] [Server thread/INFO]: Default game type: CREATIVE
-[17:49:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-e4d0c66-f3f2fe5 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
-[17:49:33] [Server thread/INFO]: Debug logging is disabled
-[17:49:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:49:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:49:33] [Server thread/INFO]: Generating keypair
-[17:49:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:49:34] [Server thread/INFO]: Using default channel type
-[17:49:47] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[17:49:47] [Server thread/INFO]: [scriptcraft] Loading scriptcraft v3.3.0-2018-09-03
-[17:49:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:49:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:49:47] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:49:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:49:47] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:49:47] [Server thread/INFO]: Preparing level "world"
-[17:49:47] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[17:49:53] [Server thread/INFO]: Loaded 524 recipes
-[17:49:58] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:49:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:49:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:49:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:49:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:49:58] [Server thread/INFO]: View Distance: 10
-[17:49:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:49:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:49:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:49:58] [Server thread/INFO]: Mob Spawn Range: 6
-[17:49:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:49:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:49:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:49:58] [Server thread/INFO]: Random Lighting Updates: false
-[17:49:58] [Server thread/INFO]: Max TNT Explosions: 100
-[17:49:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:49:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:49:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:49:58] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:49:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:49:58] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:49:58] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:49:58] [Server thread/INFO]: View Distance: 10
-[17:49:58] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:49:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:49:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:49:58] [Server thread/INFO]: Mob Spawn Range: 6
-[17:49:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:49:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
-[17:49:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:49:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:49:58] [Server thread/INFO]: Random Lighting Updates: false
-[17:49:58] [Server thread/INFO]: Max TNT Explosions: 100
-[17:49:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:49:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:49:58] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: 5265771301601730330)
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 4%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 8%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 12%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 16%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 20%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 24%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 28%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 32%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 36%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 40%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 44%
-[17:49:59] [Server thread/INFO]: Preparing spawn area: 48%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 52%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 56%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 60%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 64%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 68%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 72%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 76%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 80%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 84%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 88%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 92%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 96%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 100%
-[17:50:00] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -2813244069009962551)
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 4%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 8%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 12%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 16%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 20%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 24%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 28%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 32%
-[17:50:00] [Server thread/INFO]: Preparing spawn area: 36%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 40%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 44%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 48%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 52%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 56%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 60%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 64%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 68%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 72%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 76%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 80%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 84%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 88%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 92%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 96%
-[17:50:01] [Server thread/INFO]: Preparing spawn area: 100%
-[17:50:01] [Server thread/INFO]: Time elapsed: 3059 ms
-[17:50:01] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
-[17:50:04] [Server thread/INFO]: [scriptcraft] Directory C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft does not exist.
-[17:50:04] [Server thread/INFO]: [scriptcraft] Initializing C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft directory with contents from plugin archive.
-[17:50:04] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\command.js (NE)
-[17:50:04] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\console.js (NE)
-[17:50:04] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\events-bukkit.js (NE)
-[17:50:04] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\events-canary.js (NE)
-[17:50:05] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\events-helper-bukkit.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\events-helper-canary.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\events.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\find.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\java-utils.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\js-patch.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\legacy-check.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\persistence.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\plugin.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\readme.md (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\require.js (NE)
-[17:50:06] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\scriptcraft.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\tabcomplete-jsp.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\tabcomplete.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\task-bukkit.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\lib\task-canary.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\readme.md (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\alias\alias.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\arrows.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\at.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\classroom.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\commando\commando-test.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\commando\commando.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\castle.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\chessboard.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\cottage.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\dancefloor.js (NE)
-[17:50:07] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\fort.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\hangtorch.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\lcd-clock.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\logo.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\mazegen.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\rainbow.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\redstonewire.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\spawn.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\spiral_stairs.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\contrib\temple.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\drone\drone.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\entities.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-1-hello-module.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-2-hello-command.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-3-hello-ops-only.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-4-hello-parameters.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-5-hello-using-module.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-6-hello-player.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\examples\example-7-hello-events.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\homes\homes.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\minigames\NumberGuess.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\minigames\cow-clicker.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\signs\examples.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\plugins\spawn.js (NE)
-[17:50:08] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\at.js (NE)
-[17:50:09] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\babel-register.js (NE)
-[17:50:09] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\babel.js (NE)
-[17:50:21] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\block-colors.js (NE)
-[17:50:21] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\blockhelper.js (NE)
-[17:50:21] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\blocks.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\fireworks.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\input.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\inventory.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\items.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\recipes.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\bukkit\sounds.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\fireworks.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\input.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\inventory.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\items.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\recipes.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\canary\sounds.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\classroom\index.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\arc.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\bed.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\blocktype.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\copypaste.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\cylinders.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\doors.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\firework.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\garden.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\index.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\ladder.js (NE)
-[17:50:22] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\movement.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\prism.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\rand.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\sign.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\sphere.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\stairs.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\test.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\drone\trees.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\entities.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\fireworks.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\http\package.json (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\http\request.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\input.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\inventory\index.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\items.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\lightning.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\minigames\scoreboard.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\recipes.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\sc-mqtt.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\signs\menu.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\signs\package.json (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\signs\signs.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\slash.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\sounds.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\spawn.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\teleport.js (NE)
-[17:50:23] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\underscore.js (NE)
-[17:50:24] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\utils\package.json (NE)
-[17:50:24] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\utils\string-exts.js (NE)
-[17:50:24] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\utils\utils.js (NE)
-[17:50:24] [Server thread/INFO]: [scriptcraft] Unzipping C:\Users\PC\Disk Google\SW Projekty\Minecraft server\NEW\ESPCraft\Spigot-1.13.2-#80\scriptcraft\modules\watcher.js (NE)
-[17:50:27] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
-[17:50:29] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
-[17:50:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:50:30] [Server thread/INFO]: Done (42.280s)! For help, type "help"
-[17:50:30] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
-[17:52:06] [User Authenticator #1/INFO]: UUID of player ReFlex_CZ is 9f664c1b-e59d-3d67-838e-dcdc1e6fe4cb
-[17:52:11] [Server thread/INFO]: ReFlex_CZ[/127.0.0.1:51126] logged in with entity id 87 at ([world]32.378028130797134, 4.0, 0.7303777422123521)
-[17:52:32] [Server thread/INFO]: ReFlex_CZ issued server command: /js 1+°1
-[17:52:32] [Server thread/ERROR]: [scriptcraft] Error while trying to evaluate javascript: 1+°1, Error: java.lang.RuntimeException: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2
-[17:52:32] [Server thread/ERROR]: [scriptcraft] javax.script.ScriptException: java.lang.RuntimeException: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2 in <eval> at line number 695 at column number 8
-[17:52:32] [Server thread/WARN]: javax.script.ScriptException: java.lang.RuntimeException: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2 in <eval> at line number 695 at column number 8
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:392)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
-[17:52:32] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onCommand(ScriptCraftPlugin.java:73)
-[17:52:32] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
-[17:52:32] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140)
-[17:52:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:699)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1648)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1483)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.a(SourceFile:10)
-[17:52:32] [Server thread/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[17:52:32] [Server thread/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:900)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:835)
-[17:52:32] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:733)
-[17:52:32] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[17:52:32] [Server thread/WARN]: Caused by: <eval>:695:8 java.lang.RuntimeException: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAException.create(ECMAException.java:113)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$271$\^eval\_.__onEnable#__onCommand(<eval>:695)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:628)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:386)
-[17:52:32] [Server thread/WARN]: 	... 18 more
-[17:52:32] [Server thread/WARN]: Caused by: java.lang.RuntimeException: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.arrays.IteratorAction.apply(IteratorAction.java:116)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeArray.forEach(NativeArray.java:1618)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$271$\^eval\_.__onEnable#__onCommand(<eval>:649)
-[17:52:32] [Server thread/WARN]: 	... 23 more
-[17:52:32] [Server thread/WARN]: Caused by: javax.script.ScriptException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^ in <eval> at line number 1 at column number 2
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:537)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:524)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
-[17:52:32] [Server thread/WARN]: 	at javax.script.AbstractScriptEngine.eval(Unknown Source)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$19$19902A$\^eval\_.__onEnable#engineEval(<eval>:598)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$272$21177ADA$\^eval\_.__onEnable#__onCommand#L:649(<eval>:650)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeArray$9.forEach(NativeArray.java:1615)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.arrays.IteratorAction.apply(IteratorAction.java:110)
-[17:52:32] [Server thread/WARN]: 	... 25 more
-[17:52:32] [Server thread/WARN]: Caused by: jdk.nashorn.internal.runtime.ParserException: <eval>:1:2 Expected an operand but found error
-1+°1
-  ^
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.AbstractParser.error(AbstractParser.java:294)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.AbstractParser.error(AbstractParser.java:279)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.unaryExpression(Parser.java:3182)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.expression(Parser.java:3325)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.expression(Parser.java:3282)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.expressionStatement(Parser.java:1150)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.statement(Parser.java:967)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.sourceElements(Parser.java:773)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.program(Parser.java:709)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.parse(Parser.java:283)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.parser.Parser.parse(Parser.java:249)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.Context.compile(Context.java:1284)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.Context.compileScript(Context.java:1251)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.Context.compileScript(Context.java:627)
-[17:52:32] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.compileImpl(NashornScriptEngine.java:535)
-[17:52:32] [Server thread/WARN]: 	... 33 more
-[17:52:34] [Server thread/INFO]: ReFlex_CZ issued server command: /js 1+1
-[17:52:46] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp
-[17:52:46] [Server thread/ERROR]: [scriptcraft] javax.script.ScriptException: Error: Usage: jsp command-name command-parameters in <eval> at line number 18 at column number 4
-[17:52:46] [Server thread/WARN]: javax.script.ScriptException: Error: Usage: jsp command-name command-parameters in <eval> at line number 18 at column number 4
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:392)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
-[17:52:46] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onCommand(ScriptCraftPlugin.java:73)
-[17:52:46] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
-[17:52:46] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140)
-[17:52:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:699)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1648)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1483)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.a(SourceFile:10)
-[17:52:46] [Server thread/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[17:52:46] [Server thread/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:900)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:835)
-[17:52:46] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:733)
-[17:52:46] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[17:52:46] [Server thread/WARN]: Caused by: <eval>:18:4 Error: Usage: jsp command-name command-parameters
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeError.initException(NativeError.java:137)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeError.<init>(NativeError.java:102)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeError.<init>(NativeError.java:106)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeError.<init>(NativeError.java:110)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.NativeError.constructor(NativeError.java:129)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$277$273AA$\^eval\_.L:1#executeCmd(<eval>:18)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$271$\^eval\_.__onEnable#__onCommand(<eval>:702)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:628)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
-[17:52:46] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:386)
-[17:52:46] [Server thread/WARN]: 	... 18 more
-[17:52:51] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp hello
-[17:53:16] [Server thread/INFO]: ReFlex_CZ issued server command: /js box('1:1', 1, 1, 1)
-[17:53:30] [Server thread/INFO]: ReFlex_CZ issued server command: /js box('1:2', 1, 1, 1)
-[17:53:33] [Server thread/INFO]: ReFlex_CZ issued server command: /js box('1:2', 1, 1, 1)
-[17:53:35] [Server thread/INFO]: ReFlex_CZ issued server command: /js box('1:2', 1, 1, 1)
-[17:55:11] [Server thread/INFO]: Stopping the server
-[17:55:11] [Server thread/INFO]: Stopping server
-[17:55:11] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
-[17:55:11] [Server thread/INFO]: Saving players
-[17:55:11] [Server thread/INFO]: ReFlex_CZ lost connection: Server closed
-[17:55:11] [Server thread/INFO]: ReFlex_CZ left the game
-[17:55:11] [Server thread/INFO]: Saving worlds
-[17:55:11] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[17:55:11] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[19:32:12] [main/INFO]: Loaded 0 recipes
+[19:32:12] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[19:32:12] [Server thread/INFO]: Loading properties
+[19:32:12] [Server thread/INFO]: Default game type: CREATIVE
+[19:32:13] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-e4d0c66-f3f2fe5 (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[19:32:13] [Server thread/INFO]: Debug logging is disabled
+[19:32:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:32:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:32:13] [Server thread/INFO]: Generating keypair
+[19:32:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:32:14] [Server thread/INFO]: Using default channel type
+[19:32:18] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:32:18] [Server thread/INFO]: [scriptcraft] Loading scriptcraft v3.3.0-2018-09-03
+[19:32:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:32:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:32:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:32:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:32:18] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:32:18] [Server thread/INFO]: Preparing level "world"
+[19:32:18] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[19:32:20] [Server thread/INFO]: Loaded 524 recipes
+[19:32:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:32:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:32:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:32:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:32:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:32:22] [Server thread/INFO]: View Distance: 10
+[19:32:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:32:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:32:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:32:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:32:22] [Server thread/INFO]: Mob Spawn Range: 6
+[19:32:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:32:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:32:22] [Server thread/INFO]: Random Lighting Updates: false
+[19:32:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Max TNT Explosions: 100
+[19:32:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:32:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:32:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:32:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:32:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:32:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:32:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:32:22] [Server thread/INFO]: View Distance: 10
+[19:32:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:32:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:32:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:32:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[19:32:22] [Server thread/INFO]: Mob Spawn Range: 6
+[19:32:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:32:22] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[19:32:22] [Server thread/INFO]: Random Lighting Updates: false
+[19:32:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:32:22] [Server thread/INFO]: Max TNT Explosions: 100
+[19:32:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:32:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:32:22] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: 5265771301601730330)
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 4%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 8%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 12%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 16%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 20%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 24%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 28%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 32%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 36%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 40%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 44%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 48%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 52%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 56%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 60%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 64%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 68%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 72%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 76%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 80%
+[19:32:23] [Server thread/INFO]: Preparing spawn area: 84%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 88%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 92%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 96%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 100%
+[19:32:24] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: -2813244069009962551)
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 4%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 8%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 12%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 16%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 20%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 24%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 28%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 32%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 36%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 40%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 44%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 48%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 52%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 56%
+[19:32:24] [User Authenticator #1/INFO]: UUID of player ReFlex_CZ is 9f664c1b-e59d-3d67-838e-dcdc1e6fe4cb
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 60%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 64%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 68%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 72%
+[19:32:24] [Server thread/INFO]: Preparing spawn area: 76%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 80%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 84%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 88%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 92%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 96%
+[19:32:25] [Server thread/INFO]: Preparing spawn area: 100%
+[19:32:25] [Server thread/INFO]: Time elapsed: 2155 ms
+[19:32:25] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[19:32:27] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[19:32:28] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[19:32:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:32:28] [Server thread/INFO]: Done (10.273s)! For help, type "help"
+[19:32:28] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[19:32:29] [Server thread/INFO]: ReFlex_CZ[/127.0.0.1:54335] logged in with entity id 101 at ([world]31.952872551276144, 4.0, 0.6913343675404567)
+[19:32:47] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp lighton
+[19:57:54] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh
+[19:58:09] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[19:58:09] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[19:58:09] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[19:58:09] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[19:58:10] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[19:58:12] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[19:58:12] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[19:59:03] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh
+[19:59:06] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[19:59:06] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[19:59:06] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[19:59:06] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[19:59:06] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[19:59:07] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[19:59:07] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[19:59:11] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[19:59:11] [Server thread/ERROR]: [scriptcraft] Error while trying to execute command: ["block"]
+[19:59:11] [Server thread/ERROR]: [scriptcraft] javax.script.ScriptException: ReferenceError: "putBlock" is not defined in <eval> at line number 38 at column number 6
+[19:59:11] [Server thread/WARN]: javax.script.ScriptException: ReferenceError: "putBlock" is not defined in <eval> at line number 38 at column number 6
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:467)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:389)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
+[19:59:11] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onCommand(ScriptCraftPlugin.java:73)
+[19:59:11] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+[19:59:11] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140)
+[19:59:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:699)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1648)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1483)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.a(SourceFile:10)
+[19:59:11] [Server thread/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[19:59:11] [Server thread/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:900)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:835)
+[19:59:11] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:733)
+[19:59:11] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[19:59:11] [Server thread/WARN]: Caused by: <eval>:38:6 ReferenceError: "putBlock" is not defined
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.referenceError(ECMAErrors.java:319)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.referenceError(ECMAErrors.java:291)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.Global.__noSuchProperty__(Global.java:1432)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$1087$105AA$\^eval\_.L:1$L:3(<eval>:4)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$1086$273AA$\^eval\_.L:1$executeCmd(<eval>:33)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$1085$\^eval\_.__onEnable$__onCommand(<eval>:702)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:631)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:228)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
+[19:59:11] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:383)
+[19:59:11] [Server thread/WARN]: 	... 18 more
+[20:01:44] [Server thread/INFO]: [@: Successfully filled 1 blocks]
+[20:10:14] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:10:14] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:10:14] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:10:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:10:15] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:10:16] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:10:16] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:10:16] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:10:52] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:10:52] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:10:52] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:10:52] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:10:52] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:10:54] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:10:54] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:10:54] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:10:54] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:10:54] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:10:54] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:10:54] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:10:58] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:10:58] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:10:58] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:10:58] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:10:58] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:10:59] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:10:59] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:11:04] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:11:04] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:11:04] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:11:04] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:11:04] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: 0 has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:11:35] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:11:35] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:11:35] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:11:35] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:11:35] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:11:36] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:11:36] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:11:37] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:11:44] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:11:47] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:13:02] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:13:02] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:13:02] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:13:03] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:13:04] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:13:04] [Server thread/ERROR]: [scriptcraft] Error while trying to execute command: ["block"]
+[20:13:04] [Server thread/ERROR]: [scriptcraft] javax.script.ScriptException: TypeError: Cannot read property "world" from undefined in <eval> at line number 38 at column number 6
+[20:13:04] [Server thread/WARN]: javax.script.ScriptException: TypeError: Cannot read property "world" from undefined in <eval> at line number 38 at column number 6
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:467)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:389)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
+[20:13:04] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onCommand(ScriptCraftPlugin.java:73)
+[20:13:04] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+[20:13:04] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140)
+[20:13:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:699)
+[20:13:04] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:44)
+[20:13:04] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:132)
+[20:13:04] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:72)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.CommandDispatcher.a(CommandDispatcher.java:188)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.CommandDispatcher.a(CommandDispatcher.java:169)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.CommandDispatcher.dispatchServerCommand(CommandDispatcher.java:165)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:111)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.BlockCommand.a(BlockCommand.java:95)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.BlockCommand.a(BlockCommand.java:81)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.IBlockData.a(SourceFile:261)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.WorldServer.b(WorldServer.java:677)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.TickListServer.a(TickListServer.java:77)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.WorldServer.q(WorldServer.java:659)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.WorldServer.doTick(WorldServer.java:301)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:956)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:835)
+[20:13:04] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:733)
+[20:13:04] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:13:04] [Server thread/WARN]: Caused by: <eval>:38:6 TypeError: Cannot read property "world" from undefined
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.Undefined.get(Undefined.java:152)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$3073$14856IIIIA$\^eval\_.L:1$Drone(<eval>:443)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$3071$105AA$\^eval\_.L:1$L:3(<eval>:4)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$3070$273AA$\^eval\_.L:1$executeCmd(<eval>:33)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$3069$\^eval\_.__onEnable$__onCommand(<eval>:702)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:631)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:228)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
+[20:13:04] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:383)
+[20:13:04] [Server thread/WARN]: 	... 24 more
+[20:13:04] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:13:14] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:13:14] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:13:14] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:13:14] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:13:14] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:13:15] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:13:15] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:13:15] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:14:04] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:14:04] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:14:04] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:14:04] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:14:05] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:14:06] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:14:06] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:14:06] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:14:06] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:06] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:06] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:06] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:08] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:14:08] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:08] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:08] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:08] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:34] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:14:34] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:34] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:34] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:34] [Server thread/INFO]: [scriptcraft] Drone build error: TypeError: world has no such function "getBlockAt" while processing function wrapperFn() { [native code] }
+[20:14:54] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:14:54] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:14:54] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:14:54] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:14:55] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:14:56] [Server thread/ERROR]: [scriptcraft] Plugin F:\Documents\Github\ESPCraft\Minecraft Server\Spigot-1.13.2-#80\scriptcraft\plugins\block_manipulation.js Error: Error evaluating module F:\Documents\Github\ESPCraft\Minecraft Server\Spigot-1.13.2-#80\scriptcraft\plugins\block_manipulation.js line #undefined : javax.script.ScriptException: <eval>:4:45 Expected : but found =
+    var drone = new Drone(37, 5, 2, 0, {name = 'world'});
+                                             ^ in <eval> at line number 4 at column number 45
+[20:14:56] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:14:56] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:14:56] [Server thread/WARN]: [scriptcraft] Command block is not recognised
+[20:14:56] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:15:05] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:15:05] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:15:05] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:15:05] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:15:06] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:15:06] [Server thread/ERROR]: [scriptcraft] Plugin F:\Documents\Github\ESPCraft\Minecraft Server\Spigot-1.13.2-#80\scriptcraft\plugins\block_manipulation.js Error: Error evaluating module F:\Documents\Github\ESPCraft\Minecraft Server\Spigot-1.13.2-#80\scriptcraft\plugins\block_manipulation.js line #undefined : javax.script.ScriptException: <eval>:4:45 Expected : but found =
+    var drone = new Drone(37, 5, 2, 0, {name = 'world'});
+                                             ^ in <eval> at line number 4 at column number 45
+[20:15:06] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:15:06] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:26:32] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:26:32] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:26:32] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:26:32] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:26:35] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:26:38] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:26:38] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:26:38] [Server thread/ERROR]: [scriptcraft] Error while trying to execute command: ["block"]
+[20:26:38] [Server thread/ERROR]: [scriptcraft] javax.script.ScriptException: ReferenceError: "utils" is not defined in <eval> at line number 38 at column number 6
+[20:26:38] [Server thread/WARN]: javax.script.ScriptException: ReferenceError: "utils" is not defined in <eval> at line number 38 at column number 6
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:467)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:389)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeFunction(NashornScriptEngine.java:190)
+[20:26:38] [Server thread/WARN]: 	at org.scriptcraftjs.bukkit.ScriptCraftPlugin.onCommand(ScriptCraftPlugin.java:73)
+[20:26:38] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44)
+[20:26:38] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:140)
+[20:26:38] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_13_R2.CraftServer.dispatchCommand(CraftServer.java:699)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.handleCommand(PlayerConnection.java:1648)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnection.a(PlayerConnection.java:1483)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:45)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PacketPlayInChat.a(PacketPlayInChat.java:1)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.PlayerConnectionUtils.a(SourceFile:10)
+[20:26:38] [Server thread/WARN]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[20:26:38] [Server thread/WARN]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.SystemUtils.a(SourceFile:199)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.b(MinecraftServer.java:900)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.DedicatedServer.b(DedicatedServer.java:417)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.a(MinecraftServer.java:835)
+[20:26:38] [Server thread/WARN]: 	at net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:733)
+[20:26:38] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[20:26:38] [Server thread/WARN]: Caused by: <eval>:38:6 ReferenceError: "utils" is not defined
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.referenceError(ECMAErrors.java:319)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ECMAErrors.referenceError(ECMAErrors.java:291)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.objects.Global.__noSuchProperty__(Global.java:1432)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$4962$105AA$\^eval\_.L:1$L:3(<eval>:4)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$4961$273AA$\^eval\_.L:1$executeCmd(<eval>:33)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.scripts.Script$Recompilation$4960$\^eval\_.__onEnable$__onCommand(<eval>:702)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:631)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:228)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.ScriptObjectMirror.callMember(ScriptObjectMirror.java:199)
+[20:26:38] [Server thread/WARN]: 	at jdk.nashorn.api.scripting.NashornScriptEngine.invokeImpl(NashornScriptEngine.java:383)
+[20:26:38] [Server thread/WARN]: 	... 18 more
+[20:26:38] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:26:59] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:26:59] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:26:59] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:26:59] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:26:59] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:27:00] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:27:00] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:27:01] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:27:33] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:27:33] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:27:33] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:27:33] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:27:34] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:27:34] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:27:35] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:27:35] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:28:13] [Server thread/INFO]: ReFlex_CZ issued server command: /js refresh()
+[20:28:13] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:28:13] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:28:13] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:28:13] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:28:14] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:28:14] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[20:28:15] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:28:17] [Server thread/INFO]: ReFlex_CZ issued server command: /jsp block
+[20:28:24] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[20:28:24] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.3.0-2018-09-03
+[20:28:24] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader scriptcraft v3.3.0-2018-09-03
+[20:28:25] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[20:28:26] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[20:28:26] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[21:11:13] [Server thread/INFO]: ReFlex_CZ lost connection: Disconnected
+[21:11:13] [Server thread/INFO]: ReFlex_CZ left the game
+[21:11:25] [Server thread/INFO]: Stopping the server
+[21:11:25] [Server thread/INFO]: Stopping server
+[21:11:25] [Server thread/INFO]: [scriptcraft] Disabling scriptcraft v3.3.0-2018-09-03
+[21:11:25] [Server thread/INFO]: Saving players
+[21:11:25] [Server thread/INFO]: Saving worlds
+[21:11:25] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[21:11:25] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end

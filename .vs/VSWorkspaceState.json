@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Minecraft Server",
+    "\\Minecraft Server\\Spigot-1.13.2-#80",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\modules",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\modules\\drone",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\modules\\signs",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\modules\\utils",
+    "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\plugins"
+  ],
+  "SelectedNode": "\\Minecraft Server\\Spigot-1.13.2-#80\\scriptcraft\\modules\\drone\\index.js",
+  "PreviewInSolutionExplorer": false
+}
