@@ -1,0 +1,1 @@
+mosquitto_pub.exe -h 127.0.0.1 -p 1884 -t "arduino" -m "BUTTON"

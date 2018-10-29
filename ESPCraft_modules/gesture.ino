@@ -1,4 +1,0 @@
-
-
-
-void gesture_setup() {}
