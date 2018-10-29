@@ -35,8 +35,6 @@
 // Codes 0..199 are available for
 // user defined events.
 
-#define MESSAGE_SIZE 32
-
 class Events {
 
 public:
@@ -45,8 +43,19 @@ public:
 	   // no event occurred
 	   // param: none
 	   EV_NONE = 0,
+	   //ACTIONS are starters of module change, what needs to be changed based 
+	   //on those actions needs to listen to those actions
+	   EV_ACTION_MQTT,
 
-	   EV_MQTT
+	   EV_ACTION_TOUCH,
+	   EV_ACTION_PIR,
+	   EV_ACTION_BUTTON,
+	   EV_ACTION_NEARIR,
+	   EV_ACTION_MIC,
+
+	   EV_CHANGE_RELAY,
+	   EV_CHANGE_NEOPIXEL,
+	   EV_CHANGE_DISPLAY
    };
 };
 

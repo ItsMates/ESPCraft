@@ -16,7 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ESPCraft_modules.ino" />
-    <None Include="definitions.ino" />
     <None Include="module.ino" />
     <None Include="touch.ino" />
     <None Include="nearir.ino" />
@@ -27,7 +26,10 @@
     <None Include="wifi.ino" />
     <None Include="button.ino" />
     <None Include="eeprom.ino" />
-    <None Include="private.ino" />
+    <None Include="display.ino" />
+    <None Include="gesture.ino" />
+    <None Include="mic.ino" />
+    <None Include="pir.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ESPCraft_modules.vsarduino.h">
@@ -42,12 +44,27 @@
     <ClInclude Include="EventDispatcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Adafruit_SSD1306.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EventQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adafruit_SSD1306.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

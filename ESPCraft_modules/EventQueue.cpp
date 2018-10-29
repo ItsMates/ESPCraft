@@ -44,8 +44,7 @@ void EventQueue::init() {
 	for (i = 0; i < EVQUEUE_SIZE; i++) {
 		eventQueue[i] = Events::EV_NONE;
 		eventParam[i] = 0;
-		for (int j = 0; j < MESSAGE_SIZE; j++)
-			eventMessage[i][j] = (char)0;
+		eventMessage[i] = "";
 	}
 }
 
@@ -65,7 +64,7 @@ int EventQueue::getNumEvents() {
 }
 
 
-boolean EventQueue::enqueueEvent(int ev_code, int ev_param, char ev_message[]) {
+boolean EventQueue::enqueueEvent(int ev_code, long ev_param, String ev_message) {
 
 	if (isFull()) {
 		// log the queue full error
@@ -77,8 +76,7 @@ boolean EventQueue::enqueueEvent(int ev_code, int ev_param, char ev_message[]) {
 	// store the event
 	eventQueue[eventQueueHead] = ev_code;
 	eventParam[eventQueueHead] = ev_param;
-	for (size_t i = 0; i < MESSAGE_SIZE; i++)
-		eventMessage[eventQueueHead][i] = ev_message[i];
+    eventMessage[eventQueueHead] = ev_message;
 	
 	// update queue head value
 	eventQueueHead = (eventQueueHead + 1) % EVQUEUE_SIZE;;
@@ -90,7 +88,7 @@ boolean EventQueue::enqueueEvent(int ev_code, int ev_param, char ev_message[]) {
 }
 
 
-boolean EventQueue::dequeueEvent(int* ev_code, int* ev_param) {
+boolean EventQueue::dequeueEvent(int* ev_code, long* ev_param, String* ev_message) {
 	int temp;
 	boolean isEmpty;
 
@@ -104,8 +102,7 @@ boolean EventQueue::dequeueEvent(int* ev_code, int* ev_param) {
 	// into the user-supplied variables
 	*ev_code = eventQueue[eventQueueTail];
 	*ev_param = eventParam[eventQueueTail];
-	for (size_t i = 0; i < MESSAGE_SIZE; i++)
-		eventMessage[eventQueueHead][i] = (char)0;
+	*ev_message = eventMessage[eventQueueTail];
 
 	// update number of events in queue
 	numEvents--;

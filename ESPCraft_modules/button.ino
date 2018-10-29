@@ -1,32 +1,55 @@
-
 #ifdef BUTTON_PIN
 
-#include <Bounce2.h>
-
-// Instantiate a Bounce object :
-Bounce button = Bounce();
+boolean _button_state = LOW;
 
 void button_setup() {
-	button.attach(BUTTON_PIN);   // Use the bounce2 library to debounce the built in button
-	button.interval(50);         // Input must be low for 50 ms
+	pinMode(BUTTON_PIN, INPUT_PULLUP);
+	mqtt_subscribe(MQTT_BUTTON_TOPIC);
 }
 
-bool button_update() {
-	button.update();
-	// Call code if Bounce fell (transition from HIGH to LOW) :
-	if (button.fell()) {
-		//mqttClient.publish(outTopic, "0");
+bool button_get() {
+	return _button_state;
+}
+
+bool button_read() {
+	return digitalRead(BUTTON_PIN);
+}
+
+void button_loop() {
+	static boolean previous = LOW;
+	boolean state = button_read();
+
+	if (state != previous) {
+		previous = state;
+		button_setState(state);
 	}
 }
 
-bool getButton() {
-	return button.status()???? ajdono
+void button_setState(bool state)
+{
+	static boolean lastState = LOW;
+
+	_button_state = state;
+
+	if (_button_state != lastState) {
+		lastState = _button_state;
+		if (_button_state == HIGH) {
+			log_debugln("Fireing BUTTON TRUE Event!");
+			module_fireEvent(Events::EV_ACTION_BUTTON, HIGH, NO_MESSAGE);
+		}
+		else {
+			log_debugln("Fireing BUTTON FALSE Event!");
+			module_fireEvent(Events::EV_ACTION_BUTTON, LOW, NO_MESSAGE);
+		}
+	}
 }
 
 #else
 
-void button_setup() { return; }
-bool getButton() { return false; }
-bool button_update() { return false; }
+void button_setup() {}
+bool button_get() { return false; }
+bool button_read() { return false; }
+void button_loop() {}
+void button_setState(bool state) {}
 
 #endif // BUTTON_PIN

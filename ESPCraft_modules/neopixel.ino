@@ -1,30 +1,32 @@
+#ifdef NEOPIXEL_PIN
+
 #include <Adafruit_NeoPixel.h>
 
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(1, 4, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(1, NEOPIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
-void neopixel_setup() 
-{
-	pixels.begin(); // NEOPIXELs
+void neopixel_setup() {
+	pixels.begin();
+	mqtt_subscribe(MQTT_NEOPIXEL_TOPIC);
 
-	mqtt_addListener(neopixel_mqttHandler);
-
+	module_addEventListener(Events::EV_CHANGE_NEOPIXEL, [](int code, long param, char* message)->void
+	{
+		pixels.setPixelColor(0, param);
+		pixels.show();
+	});
 }
 
-
-void neopixel_test()
-{
-	pixels.setPixelColor(0, pixels.Color(255, 0, 0));
-	pixels.show();
+void neopixel_setState(long color) {
+	module_fireEvent(Events::EV_CHANGE_NEOPIXEL, color, NO_MESSAGE);
 }
 
-void neopixel_mqttHandler(int e, int p, char* message)
-{
-	pixels.setPixelColor(0, pixels.Color(100, 100, 100));
-	pixels.show();
-	delay(500);
+long neopixel_color(int r, int g, int b) {
+	return pixels.Color(r, g, b);
 }
 
-void setNeopixel(int r, int g, int b) {
-	pixels.setPixelColor(0, pixels.Color(r, g, b));
-	pixels.show();
-}
+#else
+
+void neopixel_setup() {}
+void neopixel_setState(long color) {}
+long neopixel_color(int r, int g, int b) {return 0;}
+
+#endif // NEOPIXEL_PIN

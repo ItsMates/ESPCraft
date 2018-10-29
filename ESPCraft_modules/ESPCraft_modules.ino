@@ -1,52 +1,50 @@
-// Visual Micro is in vMicro>General>Tutorial Mode
-// 
 /*
-    Name:       ESPCraft_modules.ino
-    Created:	25.10.2018 18:21:28
-    Author:     MATES-PC\Mates
+	Name:       ESPCraft_modules.ino
+	Created:	25.10.2018 18:21:28
+	Author:     MATES-PC\Mates
 */
 
+#include <Wire.h>
+#include <SPI.h>
+#include <gfxfont.h>
+#include <Adafruit_SPITFT_Macros.h>
+#include <Adafruit_SPITFT.h>
+#include <Adafruit_GFX.h>
 
-
-
-#include "EventDispatcher.h"
-#include "EventQueue.h"
-#include "EventDispatcher.h"
-#include "Events.h"
+#include "definitions.h"
 
 void setup()
 {
-	Serial.begin(115200);
+	Serial.begin(SERIAL_BAUD);
+	//pinMode(A0, INPUT);
 
 	module_setup();
+
+	/*module_addEventListener(Events::EV_ACTION_NEARIR, [](int code, long param, char*message) -> void
+	{
+		module_fireEvent(Events::EV_CHANGE_RELAY, param, NO_MESSAGE);
+	});
+
+	module_addEventListener(Events::EV_ACTION_TOUCH, [](int code, long param, char*message) -> void
+	{
+		if (param == HIGH) {
+			module_fireEvent(Events::EV_CHANGE_NEOPIXEL, neopixel_color(0, 255, 0), NO_MESSAGE);
+		}
+		else {
+			module_fireEvent(Events::EV_CHANGE_NEOPIXEL, neopixel_color(255, 0, 0), NO_MESSAGE);
+		}
+	});*/
 }
 
 void loop()
 {
 	module_loop();
 
-	if (getTouch()) 
-	{
-		setNeopixel(0, 255, 0);
+	//static unsigned long ms_last = 0;
+	//if (millis() - ms_last > 250) {
+	//	ms_last = millis();
+	//	module_fireEvent(Events::EV_CHANGE_DISPLAY, 0, String("Analog:\n") + String(analogRead(A0)));
+	//}
 
-		mqtt_publish("Touch", "true");
-
-		while (getTouch());
-	}
-	else 
-	{
-		setNeopixel(255, 0, 0);
-	}
-
-	if (getNearir())
-	{
-		setRelay(true);
-	}
-	else
-	{
-		setRelay(false);
-	}
-
-	delay(10);
 }
 

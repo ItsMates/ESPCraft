@@ -1,4 +1,3 @@
-
 /*
 * EventQueue.h
 *
@@ -57,23 +56,23 @@ public:
    // tries to insert an event into the queue;
    // returns true if successful, false if the
    // queue if full and the event cannot be inserted
-   boolean enqueueEvent(int ev_code, int ev_param, char ev_message[]);
+   boolean enqueueEvent(int ev_code, long ev_param, String ev_message);
 
    // tries to extract an event from the queue;
    // returns true if successful, false if the
    // queue is empty (the parameteres are not touched
    // in this case)
-   boolean dequeueEvent(int* ev_code, int* ev_param);
+   boolean dequeueEvent(int* ev_code, long* ev_param, String* ev_message);
 
 private:
    // each event is represented by an integer code
    int eventQueue[EVQUEUE_SIZE];
 
    // each event has a single integer parameter
-   int eventParam[EVQUEUE_SIZE];
+   long eventParam[EVQUEUE_SIZE];
 
    // each event has a string message
-   char eventMessage[EVQUEUE_SIZE][MESSAGE_SIZE];
+   String eventMessage[EVQUEUE_SIZE];
 
    // index of event queue head
    int eventQueueHead;
