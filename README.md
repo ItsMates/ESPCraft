@@ -6,4 +6,4 @@ Communication through MQTT protocol operated from Minecraft thanks to scriptcraf
 Run Run.bat and join spigot server on localhost:25565 and play.
 
 
-![GitHub Logo](/ESPCraft_modules/Images/moludes1.jpg)
+![GitHub Logo](/ESP8266 Firmware/ESPCraftModules/Images/moludes1.jpg)
