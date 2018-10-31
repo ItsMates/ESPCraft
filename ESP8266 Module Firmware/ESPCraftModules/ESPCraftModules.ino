@@ -18,14 +18,18 @@ void setup()
 	Serial.begin(SERIAL_BAUD);
 	//pinMode(A0, INPUT);
 
+	/*Serial.println(neopixel_r(neopixel_color(1, 2, 3)));
+	Serial.println(neopixel_g(neopixel_color(1, 2, 3)));
+	Serial.println(neopixel_b(neopixel_color(1, 2, 3)));
+*/
 	module_setup();
 
-	/*module_addEventListener(Events::EV_ACTION_NEARIR, [](int code, long param, char*message) -> void
+	/*module_addEventListener(Events::EV_ACTION_NEARIR, [](int code, long param, String message) -> void
 	{
 		module_fireEvent(Events::EV_CHANGE_RELAY, param, NO_MESSAGE);
 	});
 
-	module_addEventListener(Events::EV_ACTION_TOUCH, [](int code, long param, char*message) -> void
+	module_addEventListener(Events::EV_ACTION_TOUCH, [](int code, long param, String message) -> void
 	{
 		if (param == HIGH) {
 			module_fireEvent(Events::EV_CHANGE_NEOPIXEL, neopixel_color(0, 255, 0), NO_MESSAGE);

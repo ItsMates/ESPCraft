@@ -5,7 +5,7 @@ void relay_setup()
 	pinMode(RELAY_PIN, OUTPUT);
 	mqtt_subscribe(MQTT_RELAY_TOPIC);
 	
-	module_addEventListener(Events::EV_CHANGE_RELAY, [](int code, long param, char* message)->
+	module_addEventListener(Events::EV_CHANGE_RELAY, [](int code, long param, String message)->
 		void {
 		digitalWrite(RELAY_PIN, (bool)param);
 	});

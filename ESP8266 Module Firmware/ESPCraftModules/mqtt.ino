@@ -22,9 +22,13 @@ void mqtt_subscribe(char* topic) {
 	_subscriptions.push_back(String(topic));
 }
 
+void mqtt_subscribe(String topic) {
+	_subscriptions.push_back(topic);
+}
+
 void _mqtt_runSubscribe() {
 	int lenght = _subscriptions.length();
-	for (size_t i = 0; i < lenght; i++) {		
+	for (int i = 0; i < lenght; i++) {
 		mqttClient.subscribe(_subscriptions.at(i).c_str());		
 	}
 }
@@ -45,8 +49,14 @@ byte _mqtt_touchLast = false;
 byte _mqtt_micLast = false;
 
 long _mqtt_neopixelLast = 0;
+byte _mqtt_neopixelRLast = 0;
+byte _mqtt_neopixelGLast = 0;
+byte _mqtt_neopixelBLast = 0;
+
 String _mqtt_displayLast = "";
 byte _mqtt_relayLast = false;
+
+const int pause = 2;
 
 void _mgtt_connectModule() {
 
@@ -90,9 +100,26 @@ void _mgtt_connectModule() {
 	module_addEventListener(Events::EV_ACTION_MIC, mic);
 
 	auto neopixel = [](int code, long param, String message)->void {
+		
+		log_debugln(param);
 		if (param != _mqtt_neopixelLast) {
 			_mqtt_neopixelLast = param;
-			mqttClient.publish(MQTT_RELAY_TOPIC, param == HIGH ? "1" : "0");
+			mqttClient.publish(MQTT_NEOPIXEL_TOPIC, String(param).c_str());
+		}	
+		log_debugln(neopixel_r(param));
+		if (neopixel_r(param) != _mqtt_neopixelRLast) {
+			_mqtt_neopixelRLast = neopixel_r(param);
+			mqttClient.publish(MQTT_NEOPIXEL_R_TOPIC, String(neopixel_r(param)).c_str());
+		}
+		log_debugln(neopixel_g(param));
+		if (neopixel_g(param) != _mqtt_neopixelGLast) {
+			_mqtt_neopixelGLast = neopixel_g(param);
+			mqttClient.publish(MQTT_NEOPIXEL_G_TOPIC, String(neopixel_g(param)).c_str());
+		}
+		log_debugln(neopixel_b(param));
+		if (neopixel_b(param) != _mqtt_neopixelBLast) {
+			_mqtt_neopixelBLast = neopixel_b(param);
+			mqttClient.publish(MQTT_NEOPIXEL_B_TOPIC, String(neopixel_b(param)).c_str());
 		}
 	};
 	auto display = [](int code, long param, String message)->void {
@@ -132,53 +159,99 @@ void _mqtt_callback(char* top, byte* payload, unsigned int length) {
 
 	if (topic == MQTT_BUTTON_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		button_setState(state);
-		_mqtt_buttonLast = state;
+		if (state != _mqtt_buttonLast) {
+			_mqtt_buttonLast = state;
+			button_setState(state);		
+		}
 	}
 
-	if (topic == MQTT_NEARIR_TOPIC) {
+	else if (topic == MQTT_NEARIR_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		nearir_setState(state);
-		_mqtt_nearirLast = state;
+		if (state != _mqtt_nearirLast) {
+			_mqtt_nearirLast = state;
+			nearir_setState(state);
+		}
 	}
 
-	if (topic == MQTT_PIR_TOPIC) {
+	else if (topic == MQTT_PIR_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		pir_setState(state);
-		_mqtt_pirLast = state;
+		if (state != _mqtt_pirLast) {
+			_mqtt_pirLast = state;
+			pir_setState(state);		
+		}
 	}
 
-	if (topic == MQTT_TOUCH_TOPIC) {
+	else if (topic == MQTT_TOUCH_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		touch_setState(state);
-		_mqtt_touchLast = state;
+		if (state != _mqtt_touchLast) {
+			_mqtt_touchLast = state;
+			touch_setState(state);			
+		}
 	}
 
-	if (topic == MQTT_MIC_TOPIC) {
+	else if (topic == MQTT_MIC_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		mic_setState(state);
-		_mqtt_micLast = state;
+		if (state != _mqtt_micLast) {
+			_mqtt_micLast = state;
+			mic_setState(state);			
+		}
 	}
 
 
 
 
 
-	if (topic == MQTT_NEOPIXEL_TOPIC) {
+	else if (topic == MQTT_NEOPIXEL_TOPIC) {
 		long colour = message.toInt();
-		neopixel_setState(colour);
-		_mqtt_neopixelLast = colour;
+		if (colour != _mqtt_neopixelLast) {
+			_mqtt_neopixelLast = colour;
+			neopixel_setState(colour);
+		}
 	}
 
-	if (topic == MQTT_DISPLAY_TOPIC) {
-		display_setState(message);
-		_mqtt_displayLast = message;
+	else if (topic == MQTT_NEOPIXEL_R_TOPIC) {
+		int r = (byte)message.toInt();
+		long colour = neopixel_color(r, neopixel_g(_mqtt_neopixelLast), neopixel_b(_mqtt_neopixelLast));
+		if (r != _mqtt_neopixelRLast) {
+			_mqtt_neopixelRLast = r;
+			neopixel_setState(colour);
+		}
+		
 	}
 
-	if (topic == MQTT_RELAY_TOPIC) {
+	else if (topic == MQTT_NEOPIXEL_G_TOPIC) {
+		int g = (byte)message.toInt();
+		long colour = neopixel_color(neopixel_r(_mqtt_neopixelLast), g, neopixel_b(_mqtt_neopixelLast));
+		if (g != _mqtt_neopixelGLast) {
+			_mqtt_neopixelGLast = g;
+			neopixel_setState(colour);	
+		}
+	}
+
+	else if (topic == MQTT_NEOPIXEL_B_TOPIC) {
+		int b = (byte)message.toInt();
+		long colour = neopixel_color(neopixel_r(_mqtt_neopixelLast), neopixel_g(_mqtt_neopixelLast), b);
+		if (b != _mqtt_neopixelBLast) {		
+			_mqtt_neopixelBLast = b;
+			neopixel_setState(colour);
+		}
+	}
+
+	else if (topic == MQTT_DISPLAY_TOPIC) {
+
+		if (message != _mqtt_displayLast) {
+			_mqtt_displayLast = message;
+			display_setState(message);		
+		}
+	}
+
+	else if (topic == MQTT_RELAY_TOPIC) {
 		boolean state = msg[0] == '0' ? LOW : HIGH;
-		relay_setState(state);
-		_mqtt_relayLast = state;
+		if (state != _mqtt_relayLast) {			
+			_mqtt_relayLast = state;
+			relay_setState(state);
+		}
+		
 	}
 
 

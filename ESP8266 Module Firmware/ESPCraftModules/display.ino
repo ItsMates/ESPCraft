@@ -35,6 +35,6 @@ void display_setState(String message) {
 #else
 
 void display_setup() {}
-void display_setState(char* message) {}
+void display_setState(String message) {}
 
 #endif // DISPLAY_PIN

@@ -90,7 +90,6 @@ boolean EventQueue::enqueueEvent(int ev_code, long ev_param, String ev_message) 
 
 boolean EventQueue::dequeueEvent(int* ev_code, long* ev_param, String* ev_message) {
 	int temp;
-	boolean isEmpty;
 
 	if (numEvents == 0) {
 		return false;

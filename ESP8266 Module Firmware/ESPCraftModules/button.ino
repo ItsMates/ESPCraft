@@ -12,7 +12,7 @@ bool button_get() {
 }
 
 bool button_read() {
-	return digitalRead(BUTTON_PIN);
+	return !digitalRead(BUTTON_PIN);
 }
 
 void button_loop() {
