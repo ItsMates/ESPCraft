@@ -358,7 +358,7 @@ function makeTypeIdAndDataSetter() {
  place blocks ultimately invoke this function.
 */
 function putBlock(x, y, z, blockId, metadata, world, update) {
-    if (typeof metadata == 'undefined') {
+    if (typeof metadata === 'undefined') {
         metadata = 0;
     }
     var block = world.getBlockAt(x, y, z);
