@@ -1,0 +1,375 @@
+[23:25:34] [main/INFO]: Loaded 0 recipes
+[23:25:34] [Server thread/INFO]: Starting minecraft server version 1.13.2
+[23:25:34] [Server thread/INFO]: Loading properties
+[23:25:34] [Server thread/INFO]: Default game type: CREATIVE
+[23:25:35] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-518206a-a5b9c7b (MC: 1.13.2) (Implementing API version 1.13.2-R0.1-SNAPSHOT)
+[23:25:35] [Server thread/INFO]: Debug logging is disabled
+[23:25:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:25:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:25:35] [Server thread/INFO]: Generating keypair
+[23:25:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:25:35] [Server thread/INFO]: Using default channel type
+[23:25:40] [Server thread/INFO]: [scriptcraft] Loading scriptcraft v3.4.0-2019-01-20
+[23:25:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:25:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:25:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:25:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:25:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[23:25:40] [Server thread/INFO]: Preparing level "world"
+[23:25:40] [Server thread/INFO]: Found new data pack file/bukkit, loading it automatically
+[23:25:40] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
+[23:25:40] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[23:25:42] [Server thread/INFO]: Loaded 524 recipes
+[23:25:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:25:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:25:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:25:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:25:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:25:45] [Server thread/INFO]: View Distance: 10
+[23:25:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:25:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:25:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:25:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:25:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:25:45] [Server thread/INFO]: Mob Spawn Range: 6
+[23:25:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:25:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:25:45] [Server thread/INFO]: Max TNT Explosions: 100
+[23:25:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:25:45] [Server thread/INFO]: Random Lighting Updates: false
+[23:25:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:25:56] [Server thread/INFO]: ---- Migration of old the_end folder required ----
+[23:25:56] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
+[23:25:56] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[23:25:56] [Server thread/INFO]: Attempting to move world\DIM1 to world_the_end\DIM1...
+[23:25:56] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end\DIM1 to world\DIM1
+[23:25:56] [Server thread/WARN]: Unable to migrate world data.
+[23:25:56] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
+[23:25:56] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:25:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:25:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:25:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:25:56] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:25:56] [Server thread/INFO]: View Distance: 10
+[23:25:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:25:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:25:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:25:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:25:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:25:56] [Server thread/INFO]: Mob Spawn Range: 6
+[23:25:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:25:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:25:56] [Server thread/INFO]: Max TNT Explosions: 100
+[23:25:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[23:25:56] [Server thread/INFO]: Random Lighting Updates: false
+[23:25:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:25:56] [Server thread/INFO]: Preparing start region for level minecraft:overworld (Seed: 2120424392103749690)
+[23:26:03] [Server thread/INFO]: Preparing spawn area: 4%
+[23:26:05] [Server thread/INFO]: Preparing spawn area: 8%
+[23:26:07] [Server thread/INFO]: Preparing spawn area: 12%
+[23:26:08] [Server thread/INFO]: Preparing spawn area: 16%
+[23:26:10] [Server thread/INFO]: Preparing spawn area: 20%
+[23:26:11] [Server thread/INFO]: Preparing spawn area: 24%
+[23:26:12] [Server thread/INFO]: Preparing spawn area: 28%
+[23:26:14] [Server thread/INFO]: Preparing spawn area: 32%
+[23:26:15] [Server thread/INFO]: Preparing spawn area: 36%
+[23:26:16] [Server thread/INFO]: Preparing spawn area: 40%
+[23:26:18] [Server thread/INFO]: Preparing spawn area: 44%
+[23:26:19] [Server thread/INFO]: Preparing spawn area: 48%
+[23:26:20] [Server thread/INFO]: Preparing spawn area: 52%
+[23:26:22] [Server thread/INFO]: Preparing spawn area: 56%
+[23:26:23] [Server thread/INFO]: Preparing spawn area: 60%
+[23:26:24] [Server thread/INFO]: Preparing spawn area: 64%
+[23:26:26] [Server thread/INFO]: Preparing spawn area: 68%
+[23:26:27] [Server thread/INFO]: Preparing spawn area: 72%
+[23:26:29] [Server thread/INFO]: Preparing spawn area: 76%
+[23:26:30] [Server thread/INFO]: Preparing spawn area: 80%
+[23:26:32] [Server thread/INFO]: Preparing spawn area: 84%
+[23:26:33] [Server thread/INFO]: Preparing spawn area: 88%
+[23:26:35] [Server thread/INFO]: Preparing spawn area: 92%
+[23:26:36] [Server thread/INFO]: Preparing spawn area: 96%
+[23:26:38] [Server thread/INFO]: Preparing spawn area: 100%
+[23:26:38] [Server thread/INFO]: Preparing start region for level minecraft:the_end (Seed: 2120424392103749690)
+[23:26:38] [Server thread/INFO]: Preparing spawn area: 4%
+[23:26:39] [Server thread/INFO]: Preparing spawn area: 8%
+[23:26:39] [Server thread/INFO]: Preparing spawn area: 12%
+[23:26:39] [Server thread/INFO]: Preparing spawn area: 16%
+[23:26:39] [Server thread/INFO]: Preparing spawn area: 20%
+[23:26:40] [Server thread/INFO]: Preparing spawn area: 24%
+[23:26:40] [Server thread/INFO]: Preparing spawn area: 28%
+[23:26:40] [Server thread/INFO]: Preparing spawn area: 32%
+[23:26:41] [Server thread/INFO]: Preparing spawn area: 36%
+[23:26:41] [Server thread/INFO]: Preparing spawn area: 40%
+[23:26:41] [Server thread/INFO]: Preparing spawn area: 44%
+[23:26:41] [Server thread/INFO]: Preparing spawn area: 48%
+[23:26:42] [Server thread/INFO]: Preparing spawn area: 52%
+[23:26:42] [Server thread/INFO]: Preparing spawn area: 56%
+[23:26:42] [Server thread/INFO]: Preparing spawn area: 60%
+[23:26:42] [Server thread/INFO]: Preparing spawn area: 64%
+[23:26:42] [Server thread/INFO]: Preparing spawn area: 68%
+[23:26:43] [Server thread/INFO]: Preparing spawn area: 72%
+[23:26:43] [Server thread/INFO]: Preparing spawn area: 76%
+[23:26:43] [Server thread/INFO]: Preparing spawn area: 80%
+[23:26:43] [Server thread/INFO]: Preparing spawn area: 84%
+[23:26:43] [Server thread/INFO]: Preparing spawn area: 88%
+[23:26:44] [Server thread/INFO]: Preparing spawn area: 92%
+[23:26:44] [Server thread/INFO]: Preparing spawn area: 96%
+[23:26:44] [Server thread/INFO]: Preparing spawn area: 100%
+[23:26:44] [Server thread/INFO]: Time elapsed: 47553 ms
+[23:26:44] [Server thread/INFO]: [scriptcraft] Enabling scriptcraft v3.4.0-2019-01-20
+[23:26:46] [Server thread/INFO]: [scriptcraft] Drone using CraftEvil.setTypeIdAndData method
+[23:26:47] [User Authenticator #1/INFO]: UUID of player ReFlex_CZ is 9f664c1b-e59d-3d67-838e-dcdc1e6fe4cb
+[23:26:47] [Server thread/WARN]: [scriptcraft] cow-clicker minigame is not yet supported in CanaryMod or Bukkit
+[23:26:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:26:47] [Server thread/INFO]: Done (67.449s)! For help, type "help"
+[23:26:47] [Server thread/INFO]: [scriptcraft] js-patch setTimeout() test complete
+[23:26:49] [Server thread/INFO]: ReFlex_CZ[/127.0.0.1:49993] logged in with entity id 266 at ([world]107.5, 64.0, -59.5)
+[23:26:59] [Server thread/INFO]: ReFlex_CZ issued server command: /tp 0 128 0
+[23:26:59] [Server thread/INFO]: [ReFlex_CZ: Teleported ReFlex_CZ to 0.5, 128.0, 0.5]
+[23:27:01] [Server thread/WARN]: ReFlex_CZ moved too quickly! 0.0,-16.498980668953763,0.0
+[23:27:13] [Server thread/INFO]: ReFlex_CZ issued server command: /spawnpoint
+[23:27:13] [Server thread/INFO]: [ReFlex_CZ: Set spawn point to 12, 65, -25 for ReFlex_CZ]
+[23:27:17] [Server thread/INFO]: ReFlex_CZ issued server command: /kill
+[23:27:20] [Server thread/INFO]: ReFlex_CZ issued server command: /kill @a
+[23:27:20] [Server thread/INFO]: ReFlex_CZ fell out of the world
+[23:27:20] [Server thread/INFO]: [ReFlex_CZ: Killed ReFlex_CZ]
+[23:27:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:40] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:40] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:42] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:43] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:43] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:45] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:45] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:46] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:48] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:48] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:51] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:51] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:51] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:51] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:53] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:53] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:54] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:54] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:54] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:54] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:56] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:57] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:57] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:57] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:57] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:58] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:27:58] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:02] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:02] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:02] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:02] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:04] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:04] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:04] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:04] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:07] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:07] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:07] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:09] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:09] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:09] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:09] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:28:17] [Server thread/INFO]: ReFlex_CZ issued server command: /spawnpoint
+[23:28:17] [Server thread/INFO]: [ReFlex_CZ: Set spawn point to 20, 64, -27 for ReFlex_CZ]
+[23:29:02] [Server thread/INFO]: [scriptcraft] Topic: nvias/MC/ReFlex_CZ/M1/D1
+[23:29:02] [Server thread/INFO]: Changed the block at 15, 63, -26
+[23:29:03] [Server thread/INFO]: [scriptcraft] Topic: nvias/MC/ReFlex_CZ/M1/D1
+[23:29:03] [Server thread/INFO]: Changed the block at 15, 63, -28
+[23:29:04] [Server thread/INFO]: [scriptcraft] Topic: nvias/MC/ReFlex_CZ/M1/D1
+[23:29:04] [Server thread/INFO]: [scriptcraft] Subscribing to: nvias/MC/ReFlex_CZ/M1/D1
+[23:29:33] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:33] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:33] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:33] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:34] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:29:50] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:29:50] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@2ec4ad
+[23:29:50] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:29:53] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:29:53] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:29:53] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1d165ee
+[23:29:54] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:29:54] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@88ee11
+[23:29:54] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:29:55] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:29:55] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:29:55] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@16bbd5c
+[23:29:56] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:29:56] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@c4b581
+[23:29:56] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:30:07] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:30:07] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:30:07] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@c99f9
+[23:30:08] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:30:08] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1f4644b
+[23:30:08] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:30:09] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:30:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:30:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1798788
+[23:30:10] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:30:10] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@e495cb
+[23:30:10] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:31:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:05] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:31:06] [Server thread/INFO]: [scriptcraft] Invalid activation - TypeError: null has no such function "getType"
+[23:32:40] [Server thread/INFO]: ReFlex_CZ issued server command: /spawnpoint
+[23:32:40] [Server thread/INFO]: [ReFlex_CZ: Set spawn point to 22, 64, -27 for ReFlex_CZ]
+[23:32:53] [Server thread/INFO]: ReFlex_CZ issued server command: /setworldspawn
+[23:32:53] [Server thread/INFO]: [ReFlex_CZ: Set the world spawn point to 22, 64, -27]
+[23:33:06] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:06] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@dd059f
+[23:33:06] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:07] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:07] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:07] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@111d925
+[23:33:08] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:08] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@ef1bd2
+[23:33:08] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:09] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1428f88
+[23:33:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:09] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@356c38
+[23:33:09] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:10] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:10] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:10] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@a995f9
+[23:33:13] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:13] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@31e942
+[23:33:13] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:14] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:14] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1b13809
+[23:33:14] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:21] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:21] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1930b02
+[23:33:21] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:22] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:22] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:22] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@183e4fe
+[23:33:23] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:23] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:23] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@9f3aef
+[23:33:24] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:24] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@a78cab
+[23:33:24] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:25] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:25] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:25] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@104ee02
+[23:33:25] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:25] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1360e49
+[23:33:25] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:26] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:26] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@13c87e2
+[23:33:26] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:27] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:27] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@f67518
+[23:33:27] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:27] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:27] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:27] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@2cae0a
+[23:33:28] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:28] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@57a983
+[23:33:28] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:28] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:28] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@11b3748
+[23:33:28] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:29] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:29] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@920823
+[23:33:29] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:29] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:29] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:29] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@e4a23c
+[23:33:30] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:30] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@15231c7
+[23:33:30] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:31] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:31] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@15274b6
+[23:33:31] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:32] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:32] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@172c956
+[23:33:32] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:32] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:32] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@b3d933
+[23:33:32] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:33] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:33] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:33] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@9ad596
+[23:33:34] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:34] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:34] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@21e13
+[23:33:35] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:35] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@3a3389
+[23:33:35] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:36] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:36] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1aca988
+[23:33:36] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:36] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:36] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1cdff3d
+[23:33:36] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:37] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:37] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:37] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@fb3698
+[23:33:38] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:38] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@1bfa536
+[23:33:38] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:39] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 1
+[23:33:39] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@139f5fe
+[23:33:39] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:1#
+[23:33:39] [Server thread/INFO]: [scriptcraft] SENDING: Topic: nvias/MC/ReFlex_CZ/M1/D1; Msg: 0
+[23:33:39] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] deliveryComplete:org.eclipse.paho.client.mqttv3.MqttDeliveryToken@17c6bdd
+[23:33:39] [MQTT Call: player_8641552170407782/INFO]: [scriptcraft] # MQTT MSG: nvias/MC/ReFlex_CZ/M1/D1:0#
+[23:33:42] [Server thread/INFO]: ReFlex_CZ lost connection: Disconnected
+[23:33:42] [Server thread/INFO]: ReFlex_CZ left the game

@@ -118,6 +118,7 @@ function MQTTNode(blockCords, signCords, world, topic, payload) { // constructor
     else {
 
         var drone = new Drone(this.x, this.y, this.z, 0, this.world);
+        drone.run('setblock ' + this.x + ' ' + (this.y - 1) + ' ' + this.z + ' air');
         drone.run('setblock ' + this.x + ' ' + (this.y - 1) + ' ' + this.z + ' command_block{Command:"jsp pub ' + this.topic + ' ' + this.payload + '"}');
 
         ///setblock ~ ~ ~ repeating_command_block{Command:"Command",auto:1b}
@@ -238,7 +239,7 @@ command('pub', function (parameters, player) {
 
         console.log('SENDING: Topic: ' + topic + '; Msg: ' + payload);
         MQTTNode.client.publish(topic, payload);
-    //}
+    //}e
     //else {
     //    var drone = new Drone(this.x, this.y-1, this.z, 0, this.world);
     //    drone.place('1');
