@@ -6,7 +6,6 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-
 const char* MQTT_SERVER_IP = MY_MQTT_HOST;
 const int MQTT_SERVER_PORT = MY_MQTT_HOST_PORT;
 
@@ -14,7 +13,7 @@ const char* MQTT_USER = MY_MQTT_USERNAME;
 const char* MQTT_PASSWORD = MY_MQTT_PASSWORD;
 const char* MQTT_CLIENT_NAME = BOARD_NAME;
 
-typedef void(*MqttOnMessageCallback)(String getTopic, String message);
+typedef void(*MqttOnMessageCallback)(String topic, String message);
 
 class ModuleMqtt : public ModuleWifi {
 
@@ -37,7 +36,7 @@ private:
 	void _callback(char* top, uint8_t* payload, unsigned int length) {
 
 		char msg[MQTT_PAYLOAD_MAX];
-		String getTopic = String(top);
+		String topic = String(top);
 
 		//message
 		for (int i = 0; i < MQTT_PAYLOAD_MAX; i++) {
@@ -61,22 +60,22 @@ private:
 
 		control->fireEvent(Events::EV_MQTT_RECEIVED, length, message);
 
-		(*_onMessageHandler)(getTopic, message);
+		(*_onMessageHandler)(topic, message);
 	}
 
 public:
 
 	ModuleMqtt(Control*c) : ModuleWifi(c) {
-		_onMessageHandler = [](String getTopic, String message) -> void {};
+		_onMessageHandler = [](String topic, String message) -> void {};
 	}
 
 	void setOnMessageHandler(MqttOnMessageCallback handler) {
 		_onMessageHandler = handler;
 	}
 
+	
 	void begin() {
 		log_logln(F("Setting up MQTT"));
-
 
 		if (connect(true, true)) {
 			log_logln(F("Setup MQTT: MQTT connected"));
@@ -88,9 +87,9 @@ public:
 		log_logln("MQTT setup end");
 	}
 
-	void subscribe(String getTopic) {
+	void subscribe(String topic) {
 
-		_subscriptions.push_back(getTopic);
+		_subscriptions.push_back(topic);
 		//mqttClient.subscribe(topic.c_str());
 	}
 
@@ -99,8 +98,8 @@ public:
 	//	//mqttClient.subscribe(topic);
 	//}
 
-	void publish(String getTopic, String payload) {
-		_mqttClient.publish(getTopic.c_str(), payload.c_str());
+	void publish(String topic, String payload) {
+		_mqttClient.publish(topic.c_str(), payload.c_str());
 	}
 
 	/*void publish(char* topic, char* payload) {
@@ -119,8 +118,8 @@ public:
 	}
 
 	//WTFFFFFFFFFFFFFFF
-	std::function<void(char*, uint8_t*, unsigned int)> callback = [=](char* getTopic, uint8_t* payload, unsigned int length) {
-		this->_callback(getTopic, payload, length);
+	std::function<void(char*, uint8_t*, unsigned int)> callback = [=](char* topic, uint8_t* payload, unsigned int length) {
+		this->_callback(topic, payload, length);
 	};
 
 
@@ -144,6 +143,7 @@ public:
 					if (subscribe) {
 						_runSubscribe();
 					}
+					return true;
 				}
 				else {
 					count++;
@@ -155,8 +155,9 @@ public:
 					if (count >= 6) {
 						control->fireEvent(Events::EV_MODULE_RESTART, 0, "MQTT_CONNECTION_ERROR_RESTART");
 					}			
+					return false;
 				}
-				return false;
+			
 			}
 			else {
 				count = 0;

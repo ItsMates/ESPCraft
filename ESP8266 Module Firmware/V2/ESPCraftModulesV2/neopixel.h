@@ -3,6 +3,7 @@
 
 #include "module.h"
 
+#define FASTLED_ESP8266_RAW_PIN_ORDER
 #include <FastLED.h>
 
 class Neopixel {
@@ -31,8 +32,11 @@ protected:
 public:
 	Neopixel(Control *c) {
 		control = c;
-		FastLED.addLeds<NEOPIXEL, NEOPIXEL_PIN>(_pixel, 1);
-		_updatePixel(CRGB::Black);
+	}
+
+	void begin() {
+		FastLED.addLeds<WS2812, NEOPIXEL_PIN, COLOR_ORDER>(_pixel, 1);
+		_updatePixel(CRGB(32,32,32));
 	}
 
 	void forceColor(CRGB rgb) {

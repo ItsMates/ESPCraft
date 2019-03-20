@@ -3,11 +3,9 @@
 #ifndef _UNIVERSAL_h
 #define _UNIVERSAL_h
 
+#define FASTLED_ESP8266_RAW_PIN_ORDER
 #include <FastLED.h>
 #include "module.h"
-
-
-
 
 class PinMQTT
 {
@@ -18,53 +16,13 @@ protected:
 	Control * control;
 	int pin;
 
-	static String getPinName(int pin) {
-		switch (pin)
-		{
-		case 5:
-			return "D1";
-			break;
-		case 4:
-			return "D2";
-			break;
-		case 0:
-			return "D3";
-			break;
-		case 2:
-			return "D4";
-			break;
-		case 14:
-			return "D5";
-			break;
-		case 12:
-			return "D6";
-			break;
-		case 13:
-			return "D7";
-			break;
-		case 15:
-			return "D8";
-			break;
-		case 3:
-			return "RX";
-			break;
-		case 1:
-			return "TX";
-			break;
-		default:
-			return "";
-			break;
-		}
-	}
+	static String getPinName(int pin);
+
+	PinMQTT(Control * c, int gpio);
+	String _getPin();
+	String _getPinTopic();
 
 public:
-
-	PinMQTT(Control * c, int gpio) {
-		control = c;
-		pin = gpio;
-	}
-
-
 };
 
 
@@ -86,11 +44,11 @@ private:
 
 			if (_state == HIGH) {
 				log_debug("INPUT "); log_debug(getPinName(pin)); log_debugln(" HIGH");
-				control->fireEvent(Events::EV_INPUTPIN_CHANGE, HIGH, getPinName(pin));
+				control->fireEvent(Events::EV_INPUTPIN_CHANGE, !HIGH, getPinName(pin));
 			}
 			else {
 				log_debug("INPUT "); log_debug(getPinName(pin)); log_debugln(" LOW");
-				control->fireEvent(Events::EV_INPUTPIN_CHANGE, LOW, getPinName(pin));
+				control->fireEvent(Events::EV_INPUTPIN_CHANGE, !LOW, getPinName(pin));
 			}
 		}
 	}
@@ -101,10 +59,11 @@ private:
 
 public:
 	InputPinMQTT(Control * c, int pin) : PinMQTT( c,  pin) {
+		pinMode(pin, INPUT_PULLUP);
 	}
 
 	void begin() {
-		pinMode(pin, INPUT_PULLUP);
+		loop();
 	}
 
 	bool get() {
@@ -116,11 +75,11 @@ public:
 	}
 
 	String getPin() {
-		return getPinName(pin);
+		return _getPin();
 	}
 
-	String getTopic() {
-		return String(MQTT_TOPIC_ROOT) + String("/") + String(getPin());
+	String getPinTopic() {
+		return _getPinTopic();
 	}
 };
 
@@ -133,28 +92,24 @@ private:
 	
 public:
 	OutputPinMQTT(Control * c, int pin) : PinMQTT(c, pin) {
-	
+		pinMode(pin, OUTPUT);
 	}
 
-	
-
 	void begin() {
-		pinMode(pin, OUTPUT);
+		set(false);
 	}
 
 	void set(bool state) {
 		digitalWrite(pin, state);
 	}
 
-	String getTopic() {
-		return String(MQTT_TOPIC_ROOT) + String("/") + String(getPin());
-	}
-
 	String getPin() {
-		return getPinName(pin);
+		return _getPin();
 	}
 
-	
+	String getPinTopic() {
+		return _getPinTopic();
+	}
 };
 
 
@@ -162,25 +117,35 @@ public:
 
 class NeopixelPinMQTT : PinMQTT
 {
+
 private:
-	static const int _count = 32;
+	static const int _count = NUM_LEDS;
 	CRGB _pixels[_count];
 
 public:
 
 	NeopixelPinMQTT(Control * c) : PinMQTT(c, PIXELS_PIN) {
-
+		FastLED.addLeds<LED_TYPE, PIXELS_PIN, COLOR_ORDER>(_pixels, NUM_LEDS);
 	}
 
 	void begin() {		
-		FastLED.addLeds<LED_TYPE, PIXELS_PIN, COLOR_ORDER>(_pixels, NUM_LEDS);
+		for (int i = 0; i < _count; i++) {
+			_pixels[i] = CRGB(0,25,0);
+		}
+		FastLED.show();
 	}
 
 	//RRGBX
 	void set(String code) {
+
+		log_debug("Setting pixels: ");
+		log_debugln(code);
+
+		//log_debugln("Decoding..");
 		for (unsigned int i = 0; i < code.length(); i++)
 		{
 			char c = code.charAt(i);
+			//log_debugln(c);
 			switch (c)
 			{
 			case 'R': 
@@ -202,23 +167,23 @@ public:
 				break;
 			}			
 		}
+		//log_debugln("Showing");
 		FastLED.show();
 	}
 
 	void clear() {
-		for (int i = 0; i < NUM_LEDS; i++)
-		{
+		for (int i = 0; i < _count; i++) {
 			_pixels[i] = CRGB::Black;
 		}
 		FastLED.show();
 	}
 
 	String getPin() {
-		return getPinName(pin);
+		return _getPin();
 	}
 
-	String getTopic() {
-		return String(MQTT_TOPIC_ROOT) + String("/") + String(getPin());
+	String getPinTopic() {
+		return _getPinTopic();
 	}
 };
 

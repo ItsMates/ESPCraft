@@ -21,28 +21,42 @@ Control control;
 ModuleWifi wifi(&control);
 ModuleMqtt mqtt(&control);
 Neopixel neopixel(&control);
-InputPinMQTT input_D4(&control, D5);
-InputPinMQTT input_D5(&control, D6);
-InputPinMQTT input_D6(&control, D7);
-InputPinMQTT input_D7(&control, D8);
-OutputPinMQTT output_D2(&control, D0);
-OutputPinMQTT output_D3(&control, D1);
+InputPinMQTT input_D5(&control, PIN_D5);
+InputPinMQTT input_D6(&control, PIN_D6);
+InputPinMQTT input_D7(&control, PIN_D7);
+InputPinMQTT input_D8(&control, PIN_D8);
+OutputPinMQTT output_D0(&control, PIN_D0);
+OutputPinMQTT output_D1(&control, PIN_D1);
 NeopixelPinMQTT pixels(&control);
 
-InputPinMQTT inputs[] = { input_D4, input_D5, input_D6, input_D7 };
-OutputPinMQTT outputs[] = { output_D2, output_D3 };
+InputPinMQTT inputs[] = {input_D5, input_D6, input_D7 , input_D8, };
+OutputPinMQTT outputs[] = { output_D0, output_D1 };
 
 //Button button(&control);
 //ModuleOta ota;
 
 void setup()
 {
+	delay(1000);
+
 	Serial.begin(SERIAL_BAUD);
+
+	neopixel.begin();
+	neopixel.setBlink(false);
+	neopixel.forceColor(CRGB::White);
 
 	ErrorHandler().setErrorHandler(onError);
 
-	neopixel.setBlink(false);
-	neopixel.forceColor(CRGB::White);
+	pixels.begin();
+	pixels.set("GXXXXXXX");
+
+	for (int i = 0; i < 4; i++) {
+		inputs[i].begin();
+	}
+
+	for (int i = 0; i < 2; i++) {
+		outputs[i].begin();
+	}
 
 	wifi.begin();
 
@@ -64,12 +78,11 @@ void setup()
 	//
 	//#endif // OTA_ENABLE
 
-	mqtt.begin();
+	//sending
 
-
-	auto handleInputs = [](int code, long param, String msg) -> void {
+	control.addEventListener(Events::EV_INPUTPIN_CHANGE, [](int code, long param, String msg) -> void {
 		String pin = msg;
-		String getTopic = String(MQTT_TOPIC_ROOT) + "/" + pin;
+		String topic = String(MQTT_TOPIC_ROOT) + "/" + pin;
 		String payload;
 
 		if (param) {
@@ -78,16 +91,16 @@ void setup()
 		else {
 			payload = "0";
 		}
-		mqtt.publish(getTopic, payload);
-	};
+		mqtt.publish(topic, payload);
+	});
 
-	control.addEventListener(Events::EV_INPUTPIN_CHANGE, handleInputs);
+	//receiving
 
 	mqtt.setOnMessageHandler([](String topic, String message) -> void {
 
 		for (int i = 0; i < 2; i++)
 		{
-			if (topic == outputs[i].getTopic()) {
+			if (topic == outputs[i].getPinTopic()) {
 				if (message == "1" || message == "ON" || message == "TRUE" || message == "HIGH") {
 					outputs[i].set(HIGH);
 					return;
@@ -99,12 +112,20 @@ void setup()
 			}
 		}
 
-		if (topic == pixels.getTopic()) {
+		if (topic == pixels.getPinTopic()) {
 			pixels.set(message);
 		}
 	});
 
-	pixels.set("XRGBX");
+	mqtt.subscribe(outputs[0].getPinTopic());
+	mqtt.subscribe(outputs[1].getPinTopic());
+	mqtt.subscribe(pixels.getPinTopic());
+
+	mqtt.begin();
+
+	neopixel.setBlink(true);
+	neopixel.setColor(CRGB(0,32,0));
+	
 }
 
 void onError(long param, String message) {
@@ -138,8 +159,7 @@ void loop()
 	mqtt.loop();
 	neopixel.loop();
 
-	for (int i = 0; i < 4; i++)
-	{
+	for (int i = 0; i < 4; i++) {
 		inputs[i].loop();
 	}
 

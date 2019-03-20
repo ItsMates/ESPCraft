@@ -1,5 +1,10 @@
 'use strict';
 
+//edit these to match your preferences
+
+var FEED_NAME = 'nvias/MC/';
+var MQTT_SERVER = 'tcp://broker.mqttdashboard.com:1883';
+
 var mqtt = require('sc-mqtt');
 var utils = require('utils');
 var JavaString = java.lang.String;
@@ -35,16 +40,16 @@ function sign_activation(event) {
                     var topic = getTopic(sign, event.getPlayer());
                     var payload = getPayload(sign);
 
-                    if (sign.getLine(0) === 'SEM' || sign.getLine(0) === 'RECEIVER') {
+                    if (sign.getLine(0) === 'SEM' || sign.getLine(0) === 'RECV') {
                         MQTTNode.prototype.createReceiver(blockCords, signCords, world, topic);
                         echo(event.getPlayer(), 'Receiver ACTIVATED!');
                     }
-                    else if (sign.getLine(0) === 'TAM' || sign.getLine(0) === 'TRANSMITTER') {
+                    else if (sign.getLine(0) === 'TAM' || sign.getLine(0) === 'TRAN') {
                         MQTTNode.prototype.createSender(blockCords, signCords, world, topic, payload);
                         echo(event.getPlayer(), 'Transmitter ACTIVATED!');
                     }
                     else {
-                        echo(event.getPlayer(), 'Need Help?'); // Write SEM/RECEIVER | TAM/TRANSMITTER
+                        echo(event.getPlayer(), 'Need Help? Yout need to type SEM/RECV | TAM/TRAN ;)'); // Write SEM/RECV | TAM/TRAN
                     }
 
                 }
@@ -70,7 +75,7 @@ function getTopic(sign, player) {
     return assemble(player.getPlayerListName(), sign.getLine(1), sign.getLine(2));
 
     function assemble(name, module, pin) {
-        var topic = 'nvias/MC/' + name + '/' + module + '/' + pin;
+        var topic = FEED_NAME + '/' + name + '/' + module + '/' + pin;
         console.log('Topic: ' + topic);
         return topic;
     }
@@ -143,7 +148,7 @@ MQTTNode.sending = [];
 
 MQTTNode.subTopics = [];
 
-MQTTNode.client = mqtt.client('tcp://broker.mqttdashboard.com:1883');
+MQTTNode.client = mqtt.client(MQTT_SERVER);
 MQTTNode.client.connect();
 
 MQTTNode.prototype.createReceiver = function (blockCords, signCords, world, topic) {

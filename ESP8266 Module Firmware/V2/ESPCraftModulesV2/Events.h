@@ -40,7 +40,6 @@ public:
 	   EV_NONE = 0,
 	   
 	   EV_MQTT_RECONNECTED,
-	   EV_MQTT_PUBLISH,
 	   EV_MQTT_RECEIVED,
 	   
 	   EV_INPUTPIN_CHANGE,

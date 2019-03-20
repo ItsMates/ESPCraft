@@ -1,8 +1,11 @@
-#define BOARD_NAME "M1"
+#define FEED_NAME "nvias/MC"
+#define BOARD_NAME "A"
 #define MC_NAME "ReFlex_CZ"
 
-#define MY_WIFI_SSID "Prusa Research Guest"
-#define MY_WIFI_PASSWORD "prusaguest"
+#define MQTT_TOPIC_ROOT FEED_NAME "/" MC_NAME "/" BOARD_NAME
+
+#define MY_WIFI_SSID "MyWiFi"
+#define MY_WIFI_PASSWORD "password"
 
 #define MY_MQTT_HOST "broker.mqttdashboard.com"
 #define MY_MQTT_HOST_PORT 1883
